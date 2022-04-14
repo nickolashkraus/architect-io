@@ -10,7 +10,7 @@ func TestFindDuplicate(t *testing.T) {
 	if ret {
 		t.Fail()
 	}
-	// 'a' is a duplicate
+	// 'a' is a duplicate.
 	s = "abcdefga"
 	ret = findDuplicate(s)
 	if !ret {
