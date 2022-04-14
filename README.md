@@ -9,6 +9,9 @@ characters in the string otherwise return false.
 
 **Solution**
 
+Create a hash set (hash table). Add characters to the hash set if they are not
+already in the hash set, else return true.
+
 ## Problem 2
 
 Given a list of trees (as pointers to their roots), return the biggest score of
@@ -31,3 +34,7 @@ func findBiggestScore(trees []*Node) int {
 ```
 
 **Solution**
+
+Traverse the tree keeping track of the biggest value in each tree. A helper
+function is used in order to recursively traverse the tree and keep track of
+visited nodes.
