@@ -1,5 +1,7 @@
 # [Architect](https://www.architect.io)
 
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/NickolasHKraus/architect/blob/master/LICENSE)
+
 Solutions for a technical interview
 
 ## Problem 1
