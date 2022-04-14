@@ -5,7 +5,7 @@ Solutions for a technical interview
 ## Problem 1
 
 Create a function. Takes in a string. Returns true if there are duplicate
-characters in the string otherwise return false.
+characters in the string otherwise returns false.
 
 **Solution**
 
