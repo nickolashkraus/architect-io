@@ -86,5 +86,4 @@ func findBiggestScoreHelper(node *Node, visited map[*Node]bool, biggest int) int
 	return biggest
 }
 
-func main() {
-}
+func main() {}
