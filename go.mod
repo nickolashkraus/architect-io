@@ -1,4 +1,4 @@
-module github.com/NickolasHKraus/architect
+module github.com/nickolashkraus/architect
 
 go 1.18
 
