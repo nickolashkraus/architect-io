@@ -1,8 +1,11 @@
-# [Architect](https://www.architect.io)
+# [Architect.io](https://www.architect.io)
 
-[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/nickolashkraus/architect/blob/master/LICENSE)
+* **Date**: April 13th, 2022
+* **Format**: Technical Interview
 
 Solutions for the technical interview
+
+---
 
 ## Problem 1
 
@@ -23,15 +26,15 @@ Definition of a `Node`:
 
 ```go
 type Node struct {
-	id       uuid.UUID
-	score    int
-	children []*Node
+    id       uuid.UUID
+    score    int
+    children []*Node
 }
 ```
 
 ```go
 func findBiggestScore(trees []*Node) int {
-	return -1
+    return -1
 }
 ```
 
